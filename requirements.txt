@@ -1,0 +1,25 @@
+# --- Cœur du traitement de données ---
+pandas             # La base : manipulation de Dataframes
+numpy              # Calcul matriciel et mathématique
+scipy              # Calculs scientifiques avancés
+
+# --- Data Engineering & Formats de fichiers ---
+openpyxl           # Indispensable pour lire/écrire des fichiers Excel (.xlsx)
+pyarrow            # Moteur ultra-rapide pour lire Parquet/CSV (utilisé par Pandas)
+sqlalchemy         # Le standard pour se connecter aux bases de données (SQL)
+requests           # Pour appeler des APIs (récupérer des données du web)
+python-dotenv      # Sécurité : pour gérer vos mots de passe via un fichier .env
+
+# --- Visualisation & Analyse ---
+matplotlib         # La base des graphiques
+seaborn            # Des graphiques statistiques plus beaux par défaut
+plotly             # Graphiques interactifs (zoomables) - très pro pour l'analyse
+
+# --- Machine Learning (Data Science) ---
+scikit-learn       # La librairie reine pour le ML classique (régressions, classifications)
+
+# --- Outils pour VS Code & Notebooks ---
+jupyter            # L'interface notebook
+ipykernel          # Le moteur qui fait tourner le code dans VS Code
+black              # Formatteur de code (pour garder un code propre automatiquement)
+tqdm               # Affiche des barres de progression (utile quand on traite bcp de données)
